@@ -4,13 +4,19 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(167, 76, 251);
+    
     border: 2px solid inline-block;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
 }
 
 .Title{
     font-size: 3rem;
     margin-bottom: 2rem;
+    color: aliceblue;
 }
 
 .input-container{
